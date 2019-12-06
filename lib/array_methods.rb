@@ -1,13 +1,14 @@
-def find_element_index(arr, value_to_find)
+def find_element_index(arr, value)
   # Add your solution here
   x = arr.length
   
   x.times do |idx|
-    if arr[idx] == value_to_find
+    if arr[idx] == value
       return idx
     end
+    
   end
-  nil
+  
 end
 
 def find_max_value(array)
