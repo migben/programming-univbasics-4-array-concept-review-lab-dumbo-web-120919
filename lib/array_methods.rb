@@ -8,6 +8,7 @@ def find_element_index(arr, value)
     end
     
   end
+  # thanks to console err / testing!
   nil
 end
 
