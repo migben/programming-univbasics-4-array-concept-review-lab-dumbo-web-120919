@@ -3,8 +3,8 @@ def find_element_index(arr, value_to_find)
   x = arr.length
   
   x.times do |idx|
-    if arr[count] == value_to_find
-      return count
+    if arr[idx] == value_to_find
+      return idx
     end
   end
   nil
